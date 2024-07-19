@@ -1,0 +1,37 @@
+/* Common styles for both modes */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light mode background */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa; /* Light mode background */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #444;
+}
